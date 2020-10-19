@@ -1,4 +1,4 @@
-node('node1') {
+node('master') {
     def mvnHome
     def javaHome
     stage('Preparation') { // for display purposes
